@@ -1,0 +1,68 @@
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbar-container {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  float: left;
+}
+
+#navbar-container ul {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#navbar-container ul li {
+  float: left;
+  position: relative;
+}
+
+#navbar-container ul li:hover {
+  background-color: #000;
+}
+
+#navbar-container a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  background-color: red;
+  height: 100%;
+  position: fixed;
+  right: 0%;
+  width: 20%;
+}
+
+#sidebar-container ul {
+  list-style-type: none;
+}
+
+#sidebar-container ul li {
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar-container a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar-container a:hover {
+  background-color: #000;
+}
